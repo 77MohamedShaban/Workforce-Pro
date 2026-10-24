@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "415583811212",
+    "project_id": "workforce-3b030",
+    "storage_bucket": "workforce-3b030.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415583811212:android:e72313c0b92c6dd71eeda9",
+        "android_client_info": {
+          "package_name": "com.example.workforce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415583811212-loj1j8u87ac00rjcbt4lph8o8e16jam7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdIjAULcMglRlzrLDGnR0EVlJNIyWoECI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415583811212-loj1j8u87ac00rjcbt4lph8o8e16jam7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

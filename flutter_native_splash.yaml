@@ -1,0 +1,39 @@
+flutter_native_splash:
+
+
+  # general background_image for all platform (except android 12+)
+  # if you specify this [required] background_image, then you should comment the
+  # [required] color in previous section. select one, they cant work together.
+  #background_image:      "assets/background.png" #========[REQUIRED]============
+  #background_image_dark: "assets/dark-background.png"
+  # platform-specific background_image. will override general background_image if active:
+  #background_image_android:      "assets/background-android.png"
+  #background_image_dark_android: "assets/dark-background-android.png"
+  #background_image_ios:          "assets/background-ios.png"
+  #background_image_dark_ios:     "assets/dark-background-ios.png"
+  #background_image_web:          "assets/background-web.png"
+  #background_image_dark_web:     "assets/dark-background-web.png"
+
+  # general image for all platform (except android 12+):
+  # allows you to specify an image used in the splash screen. It must be a
+  # png file and should be sized for 4x pixel density.
+#  background_image: assets/images/Splash Screen.png
+#  fullscreen: true
+
+  #  image: assets/images/Splash Screen.png
+  color: "#FFFFFF"
+
+  android_12:
+    # background color
+    color: "#FFFFFF"
+    # center-logo
+    # If this parameter is not specified, the app's launcher icon will be used instead.
+    # Please note that the splash screen will be clipped to a circle on the center of the screen.
+    # with background: 960×960 px (fit within circle 640px in diameter)
+    # without background: 1152×1152 px (fit within circle 768px in diameter)
+    # ensure that the most important design elements of your image are placed within a circular area
+    image: assets/images/splash.png
+
+    # center-logo background color
+#    icon_background_color: "#F4F7FF"
+#    icon_background_color_dark: "#000F30"

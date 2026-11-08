@@ -64,8 +64,6 @@ class _CustomFieldState extends State<CustomTextFormField> {
         prefixIcon: Padding(
             padding: REdgeInsetsDirectional.only(start: 16, end: 8),
             child: widget.prefixIcon),
-        prefixIconColor: theme.colorScheme.onPrimary,
-        prefixIconConstraints: BoxConstraints(maxHeight: 40.h, maxWidth: 50.w),
         suffixIcon: widget.isPassword
             ? IconButton(
                 onPressed: () {
